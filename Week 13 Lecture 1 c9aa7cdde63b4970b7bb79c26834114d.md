@@ -64,13 +64,13 @@ The result of doing the transformation to X = {x|11^x mod 21 =8} is :
 
 ### Proof:
 
-$$betaj = 1/root(M) * sum from l = 0 to M - 1 of (omegaj * alphal) = root(k)/M * sum from i = 0 to M/(k - 1) of (omegajik)$$
+betaj = 1/root(M) * sum from l = 0 to M - 1 of (omegaj * alphal) = root(k)/M * sum from i = 0 to M/(k - 1) of (omegajik)
 
 The summation will be a geometric series 1 + (omega)^jk + (omega)^(2jk) + ....
 
 If the ratio isn't 1 , 
 
-$$(1 - omegajk(M/k)) / (1 - omegajk) = (1 - omegajM) / (1 - omegajk) = 0$$
+(1 - omegajk(M/k)) / (1 - omegajk) = (1 - omegajM) / (1 - omegajk) = 0
 
 Hence betaj is 1/root(k) if M divides jk, and 0 if not.
 
